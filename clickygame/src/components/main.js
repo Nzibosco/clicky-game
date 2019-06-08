@@ -13,7 +13,7 @@ const styles = {
 function Main (props) {
     return (
         <div className = "image" style = {styles.mainStyle}>
-           <img className = "my-images" src = {props.src} alt = {props.id} style = {styles.imageStyle} onClick = {props.increaseScore}></img>
+           <img className = "my-images" src = {props.src} alt = {props.id} style = {styles.imageStyle} onClick={() => props.handleClick(props.id)} value= {props.id}></img>
         </div>
     )
 } ;

@@ -36,6 +36,10 @@ function NavBar (props){
                      {/* <h3>Score: {score} | Top Score: {topScore}</h3> */}
                      <a href = "provisional link" className = "nav-link scores active">Score: {props.score} | Top Score: {props.topScore}</a>
                  </li>
+
+                 <li className = "nav-item" style = {styles}>
+                     <a href = "provisional link" className = "nav-link scores active">{props.status}</a>
+                 </li>
                 </ul>
 
             </div>
