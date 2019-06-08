@@ -17,7 +17,7 @@ We used the following technology to develop this game:
 # Deployment 
 
 You can view and demo the game on the following link: 
-(Demo Clickygame here)[https://nzibosco.github.io/clicky-game/]
+[Demo Clickygame here](https://nzibosco.github.io/clicky-game/)
 
 # Finally 
 
