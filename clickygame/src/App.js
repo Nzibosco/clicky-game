@@ -72,9 +72,6 @@ function shuffleImages(array) {
                         <Main
                         key={image.id} src={image.src} id={image.id}
                         handleClick={this.handleClick}
-                        handleIncrement={this.handleIncrement}
-                      handleReset={this.handleReset}
-                      handleShuffle={this.handleShuffle}
                          />
                     ))}
                 </div>
